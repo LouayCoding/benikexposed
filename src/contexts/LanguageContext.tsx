@@ -33,7 +33,7 @@ const translations = {
     'pricing.description': 'Krijg volledige toegang tot alle gevonden data voor je emailaccounts. Hoe meer accounts je checkt, hoe meer je bespaart.',
     
     'pricing.single.name': 'Enkel Account',
-    'pricing.single.price': '€25',
+    'pricing.single.price': '€5',
     'pricing.single.description': 'Krijg alle gevonden data voor 1 emailaccount.',
     'pricing.single.feature1': 'Check 1 emailaccount',
     'pricing.single.feature2': 'Alle gevonden wachtwoorden',
@@ -43,26 +43,26 @@ const translations = {
     'pricing.single.feature6': 'Security tips & aanbevelingen',
 
     'pricing.duo.name': 'Duo Account',
-    'pricing.duo.price': '€40',
-    'pricing.duo.description': 'Krijg alle gevonden data voor 2 accounts - Bespaar €10!',
+    'pricing.duo.price': '€10',
+    'pricing.duo.description': 'Krijg alle gevonden data voor 2 accounts - Beste deal!',
     'pricing.duo.feature1': 'Check 2 emailaccounts',
     'pricing.duo.feature2': 'Alle gevonden wachtwoorden voor beide',
     'pricing.duo.feature3': 'Alle gevonden emailadressen',
     'pricing.duo.feature4': 'Complete breach geschiedenis',
     'pricing.duo.feature5': 'Data lek informatie',
     'pricing.duo.feature6': 'Priority support',
-    'pricing.duo.feature7': '€10 korting (€20/account)',
+    'pricing.duo.feature7': 'Slechts €5 per account',
 
     'pricing.family.name': 'Familie Plan',
-    'pricing.family.price': '€60',
-    'pricing.family.description': 'Krijg alle gevonden data voor 3 accounts - Bespaar €15!',
+    'pricing.family.price': '€15',
+    'pricing.family.description': 'Krijg alle gevonden data voor 3 accounts - Maximale waarde!',
     'pricing.family.feature1': 'Check 3 emailaccounts',
     'pricing.family.feature2': 'Alle gevonden wachtwoorden voor alle 3',
     'pricing.family.feature3': 'Alle gevonden emailadressen',
     'pricing.family.feature4': 'Complete breach geschiedenis',
     'pricing.family.feature5': 'Data lek informatie',
     'pricing.family.feature6': 'Premium support',
-    'pricing.family.feature7': '€15 korting (€20/account)',
+    'pricing.family.feature7': 'Slechts €5 per account',
 
     // Testimonials
     'testimonials.title': 'Vertrouwd door beveiligingsbewuste gebruikers.',
@@ -86,7 +86,7 @@ const translations = {
     'faq.a2': 'We accepteren betalingen via Discord en Snapchat. Neem gewoon contact met ons op via een van beide platforms na je breach check, en we begeleiden je door het veilige betalingsproces.',
     
     'faq.q3': 'Hoeveel kost de service?',
-    'faq.a3': 'De prijs hangt af van het aantal emailaccounts dat je wilt monitoren. Bekijk onze prijzensectie voor gedetailleerde plannen: €25 voor 1 account, €40 voor 2 accounts (bespaar €10), en €60 voor 3 accounts (bespaar €15).',
+    'faq.a3': 'De prijs hangt af van het aantal emailaccounts dat je wilt monitoren. Bekijk onze prijzensectie voor gedetailleerde plannen: €5 voor 1 account, €10 voor 2 accounts, en €15 voor 3 accounts.',
     
     'faq.q4': 'Wat krijg ik na betaling?',
     'faq.a4': 'Na betaling ontvang je een uitgebreid rapport met alle breaches waarin je email voorkomt, inclusief breach datums, gecompromitteerde data types, aantal getroffen accounts, en beveiligingsaanbevelingen.',
@@ -166,7 +166,7 @@ const translations = {
     'pricing.description': 'Get complete access to all found data for your email accounts. The more accounts you check, the more you save.',
     
     'pricing.single.name': 'Single Account',
-    'pricing.single.price': '€25',
+    'pricing.single.price': '€5',
     'pricing.single.description': 'Get all found data for 1 email account.',
     'pricing.single.feature1': 'Check 1 email account',
     'pricing.single.feature2': 'All found passwords',
@@ -176,26 +176,26 @@ const translations = {
     'pricing.single.feature6': 'Security tips & recommendations',
 
     'pricing.duo.name': 'Duo Account',
-    'pricing.duo.price': '€40',
-    'pricing.duo.description': 'Get all found data for 2 accounts - Save €10!',
+    'pricing.duo.price': '€10',
+    'pricing.duo.description': 'Get all found data for 2 accounts - Best deal!',
     'pricing.duo.feature1': 'Check 2 email accounts',
     'pricing.duo.feature2': 'All found passwords for both',
     'pricing.duo.feature3': 'All found email addresses',
     'pricing.duo.feature4': 'Complete breach history',
     'pricing.duo.feature5': 'Data leak information',
     'pricing.duo.feature6': 'Priority support',
-    'pricing.duo.feature7': '€10 discount (€20/account)',
+    'pricing.duo.feature7': 'Only €5 per account',
 
     'pricing.family.name': 'Family Plan',
-    'pricing.family.price': '€60',
-    'pricing.family.description': 'Get all found data for 3 accounts - Save €15!',
+    'pricing.family.price': '€15',
+    'pricing.family.description': 'Get all found data for 3 accounts - Maximum value!',
     'pricing.family.feature1': 'Check 3 email accounts',
     'pricing.family.feature2': 'All found passwords for all 3',
     'pricing.family.feature3': 'All found email addresses',
     'pricing.family.feature4': 'Complete breach history',
     'pricing.family.feature5': 'Data leak information',
     'pricing.family.feature6': 'Premium support',
-    'pricing.family.feature7': '€15 discount (€20/account)',
+    'pricing.family.feature7': 'Only €5 per account',
 
     // Testimonials
     'testimonials.title': 'Trusted by security-conscious users.',
@@ -219,7 +219,7 @@ const translations = {
     'faq.a2': 'We accept payments via Discord and Snapchat. Simply contact us through either platform after your breach check, and we will guide you through the secure payment process.',
     
     'faq.q3': 'How much does the service cost?',
-    'faq.a3': 'Pricing depends on the number of email accounts you want to monitor. Check our pricing section for detailed plans: €25 for 1 account, €40 for 2 accounts (save €10), and €60 for 3 accounts (save €15).',
+    'faq.a3': 'Pricing depends on the number of email accounts you want to monitor. Check our pricing section for detailed plans: €5 for 1 account, €10 for 2 accounts, and €15 for 3 accounts.',
     
     'faq.q4': 'What do I get after payment?',
     'faq.a4': 'After payment, you receive a comprehensive report showing all breaches your email appeared in, including breach dates, compromised data types, number of affected accounts, and security recommendations.',
