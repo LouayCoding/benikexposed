@@ -57,6 +57,8 @@ function MobileNavIcon({ open }: { open: boolean }) {
 }
 
 function MobileNavigation() {
+  const { language, setLanguage, t } = useLanguage()
+  
   return (
     <Popover>
       <PopoverButton
@@ -73,9 +75,31 @@ function MobileNavigation() {
         transition
         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 ring-1 shadow-xl ring-slate-900/5 data-closed:scale-95 data-closed:opacity-0 data-enter:duration-150 data-enter:ease-out data-leave:duration-100 data-leave:ease-in"
       >
-        <MobileNavLink href="#features">Features</MobileNavLink>
-        <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-        <MobileNavLink href="#faq">FAQ</MobileNavLink>
+        <MobileNavLink href="#features">{t('nav.features')}</MobileNavLink>
+        <MobileNavLink href="#testimonials">{t('nav.testimonials')}</MobileNavLink>
+        <MobileNavLink href="#faq">{t('nav.faq')}</MobileNavLink>
+        <div className="mt-4 pt-4 border-t border-slate-200">
+          <div className="flex items-center justify-center gap-x-4">
+            <button 
+              onClick={() => setLanguage('nl')}
+              className={clsx(
+                "px-4 py-2 text-sm font-semibold rounded-lg transition-colors",
+                language === 'nl' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              )}
+            >
+              Nederlands
+            </button>
+            <button 
+              onClick={() => setLanguage('en')}
+              className={clsx(
+                "px-4 py-2 text-sm font-semibold rounded-lg transition-colors",
+                language === 'en' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              )}
+            >
+              English
+            </button>
+          </div>
+        </div>
       </PopoverPanel>
     </Popover>
   )
